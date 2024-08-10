@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .gaijin {
+            
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 230px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: moveGaijin 2s infinite alternate;
+        }
+
+        @keyframes moveGaijin {
+            0% { bottom: 30px; } 
+            100% { bottom: 250px; } 
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="blakaka">
+        <div class="gaijin"></div>
+    </div>
+    <div class="moving-planet"></div>
+    
+</body>
+</html>
